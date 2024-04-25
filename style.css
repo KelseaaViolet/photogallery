@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  background-color: black;
+}
+
+p {font-size: 1.25em;}
+ input, small {font-size: 1em;}
+nav a {font-size: 1.5em;}
+h1 {font-size: 3em;}
+h2 {font-size: 2em;}
+
+
+header {
+  background-color: white;
+ 
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header h1 {
+  color: #007d7b;
+  font-weight: bold;
+}
+
+section, .img {
+  background-color: white;
+}
+
+nav {
+  height: 50px;
+  margin-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+
+}
+
+nav ul li {
+  padding-right: 60px;
+  list-style-type: none;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+}
+
+a:hover {
+  background-color: #007d7b;
+  
+}
+
+section {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+img {
+  margin-top: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+form {
+  text-align: center;
+  
+}
+
+form input {
+  width: 50%;
+
+}
+
+
+.submit {
+  margin-top: 10px;
+  background-color: #007d7b;
+  width: 25%;
+}
+
+@media screen and (max-width: 880px) {
+  nav ul {
+    justify-content: center;
+  }
+
+  p, a {
+    font-size: 0.9rem;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+
+
+}
